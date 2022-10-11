@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+    background-color: #318CE7;
+    font-family: 'Poppins';
+    color: #333;
+}
+
+.body1 {
+    background-color: white;
+    border-radius: 5vh;
+
+    margin: 8vh 15vh 0vh 15vh;
+}
+
+.header-container {
+    justify-content: space-between;
+    padding: 3vh 0vh 0vh 5vh;
+}
+
+.menu-start {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-end {
+    padding-right: 5vh;
+}
+
+.header-container li {
+    padding-right: 2.5vh;
+    list-style: none;
+}
+
+.menu-end a {
+    text-decoration: none;
+    color: dimgray;
+    display: flex;
+    align-items: center;
+    transition: transform 250ms;
+}
+
+a:hover {
+    opacity: 70%;
+}
+
+.menu-end a:hover > svg {
+    transform: translateY(0.2vh);
+}
+
+svg {
+    padding-left: 0.5vh;
+    transition: transform 250ms;
+}
+
+.header-container, ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#letter {
+    color: white;
+    background-color: #318CE7;
+    border-radius: 50%;
+    margin-right: 1.5vh;
+    height: 4.8vh;
+    width: 4.8vh;
+
+    line-height: 4.8vh;
+    font-size: 2vh;
+
+    text-align: center;
+}
+
+#name {
+    font-size: 2vh;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+
+    border-bottom: 0.2vh solid #f2f2f2;
+
+    margin: 0vh 0vh 0vh 0vh;
+    padding-bottom: 50vh;
+}
+
+.report {
+    display: flex;
+    flex-direction: row;
+
+    margin: 15vh 5vh 0vh 27vh;
+}
+
+#profile-pic {
+    border: solid;
+    border-width: 1.8vh;
+    border-color: white;
+    border-radius: 50%;
+    box-shadow: 0.2vh 0.2vh 1.5vh 0.5vh rgba(59, 58, 58, 0.2);
+
+
+    min-height: 20vh;
+    min-width: 20vh;
+
+    height: 35vh;
+    width: 35vh;
+
+    max-height: 80vh;
+    max-width: 80vh;
+
+    object-fit: cover;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    color: #333;
+    margin-left: 5vh;
+    margin-right: 28vh;
+}
+
+.occupation {
+    color: darkgray;
+}
+
+.name {
+    font-size: 5.2vh;
+}
+
+.name > p {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.text > p {
+    margin-top: 0vh;
+    margin-bottom: 5vh;
+
+    color: #666;
+}
+
+button {
+    font-family: Poppins;
+    font-size: 1.6vh;
+
+    border: 0.3vh solid darkgray;
+    border-radius: 2.6vh;
+    background-color: white;
+    box-shadow: 0.1vh 0.1vh 1vh 0.2vh rgba(59, 58, 58, 0.2);
+
+    cursor: pointer;
+    height: 5vh;
+    padding: 0.3vh 2.5vh;
+    position: relative;
+    margin-right: 1.7vh;
+
+    transition: transform 250ms;
+}
+
+#download {
+    border: 0.3vh solid #318CE7;
+    transition:.6s ease;
+}
+
+#download:hover {
+    background-color: #318CE7;
+    color: white;
+}
+
+#contact {
+    transition:.6s ease;
+}
+
+#contact:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.what-i-do {
+    margin-top: 15vh;
+    margin-left: 10vh;
+    font-size: 1.5vh;
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 3vh;
+}
+
+.elements svg {
+    color: #318CE7;
+    margin-right: 1vh;
+}
+
+.el1 div > div, .el2 div > div {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+}
+
+.el1, .el2 {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 15vh;
+}
+
+.el1 div > p {
+    margin-left: 3vh;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color: rgb(138, 136, 136);
+    background-color: #fcfcfc;
+    border-color: #eee;
+
+    margin: 1vh 8vh 8vh 8vh;
+    padding-bottom: 1vh;
+    font-size: 1.5vh;
+}
+
+.media {
+    display: flex;
+    flex-direction: row;
+}
+
+.media > a {
+    margin-right: 2vh;
+    text-decoration: none;
+    color: rgb(138, 136, 136);
+}
