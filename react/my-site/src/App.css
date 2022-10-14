@@ -12,3 +12,10 @@
   font-size: calc(10px + 2vmin);
   color: #333;
 }
+
+.grid {
+  display: grid;
+
+  grid-template-rows: 25vh 25vh;
+  grid-template-columns: 90vh 90vh;
+}
