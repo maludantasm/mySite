@@ -1,7 +1,7 @@
 import './App.css';
-import { Header } from './components/header/header';
+import Header from './components/header';
 import WhatIDo from './components/whatIDo'
-import { Report } from './components/report/report';
+import Report from './components/report';
 
 function App() {
     return (
