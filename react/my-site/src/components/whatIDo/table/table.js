@@ -7,7 +7,7 @@ export const Table = (props) => {
 	})
 
 	return (
-		<div className="grid">
+		<div className='grid'>
 			{result}
 		</div>
 	)

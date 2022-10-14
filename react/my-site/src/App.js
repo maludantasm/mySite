@@ -1,11 +1,19 @@
 import './App.css';
-import { Table } from './components/table/table';
-import tbl from './components/table/table.json'
+import { Header } from './components/header/header';
+import WhatIDo from './components/whatIDo'
 
 function App() {
     return (
         <div className='App'>
-            <Table elements={tbl}/>
+            <div className='header-container'>
+                <Header letter='M' name='Maria Marques'/>
+            </div>
+            <div className='body-container'>
+                <WhatIDo/>
+            </div>
+            <div className='footer-container'>
+
+            </div>
         </div>
   );
 }
