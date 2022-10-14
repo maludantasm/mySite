@@ -6,23 +6,23 @@ export const Report = (props) => {
     const name = props.name
     const description = props.description
 
-    return (<div class="report">
-                <div class="picture">
-                    <img id="profile-pic" src={img} alt="profile-pic"/>
+    return (<div className='report'>
+                <div className='picture'>
+                    <img id='profile-pic' src={img} alt='profile-pic'/>
                 </div>
-                <div class="description">
-                    <div class="occupation">
+                <div className='description'>
+                    <div className='occupation'>
                         <p>{occupation}</p>
                     </div>
-                    <div class="name">
+                    <div className='name'>
                         <p><b>{name}</b></p>
                     </div>
-                    <div class="text">
+                    <div className='text'>
                         <p>{description}</p>
                     </div>
-                    <div class="buttons">
-                        <button id="download" type="button">Download CV</button>
-                        <button id="contact" type="button">Contact</button>
+                    <div className='buttons'>
+                        <button id='download' type='button'>Download CV</button>
+                        <button id='contact' type='button'>Contact</button>
                     </div>
                 </div>
             </div>

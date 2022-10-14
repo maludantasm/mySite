@@ -10,3 +10,13 @@ body {
   border-radius: 5vh;
   margin: 8vh 15vh 0vh 15vh;
 }
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+
+  border-bottom: 0.2vh solid #f2f2f2;
+
+  margin: 0vh 0vh 0vh 0vh;
+  padding-bottom: 50vh;
+}

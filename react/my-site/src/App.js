@@ -1,7 +1,8 @@
 import './App.css';
 import Header from './components/header';
-import WhatIDo from './components/whatIDo'
+import WhatIDo from './components/whatIDo';
 import Report from './components/report';
+import Footer from './components/footer';
 
 function App() {
     return (
@@ -14,7 +15,7 @@ function App() {
                 <WhatIDo/>
             </div>
             <div className='footer-container'>
-
+                <Footer/>
             </div>
         </div>
   );
