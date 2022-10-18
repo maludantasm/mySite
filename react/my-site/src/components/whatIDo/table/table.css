@@ -2,5 +2,5 @@
     display: grid;
   
     grid-template-rows: 25vh 25vh;
-    grid-template-columns: 90vh 90vh;
+    grid-template-columns: 75vh 75vh;
   }

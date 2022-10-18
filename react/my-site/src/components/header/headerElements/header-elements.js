@@ -8,7 +8,7 @@ export const HeaderElements = (props) => {
 
 		return(<li>
                     <a href={href}>{title}
-                        <svg xmlns='http://www.w3.org/2000/svg' width='2.5vh' height='2.5vh' fill='currentColor' viewBox='0 0 16 16'>
+                        <svg xmlns='http://www.w3.org/2000/svg' width='1.7vh' height='1.7vh' fill='currentColor' viewBox='0 0 16 16'>
                             <path fill-rule='evenodd' d={icon}/>
                         </svg>
                     </a>

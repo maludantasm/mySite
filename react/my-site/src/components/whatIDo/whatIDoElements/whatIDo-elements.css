@@ -3,7 +3,7 @@
     flex-direction: column;
 
     margin-right: 15vh;
-    margin-left: 15vh;
+    margin-left: 3vh;
 }
 
 .element-title {
@@ -20,4 +20,5 @@
 
 .element p {
     margin-left: 1.9vh;
+    font-size: 1.5vh;
 }

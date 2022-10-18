@@ -214,7 +214,7 @@ button {
     margin-right: 15vh;
 }
 
-.el1 div > p {
+.el1 div > p, .el2 div > p {
     margin-left: 3vh;
 }
 
