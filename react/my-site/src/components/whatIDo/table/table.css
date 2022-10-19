@@ -1,6 +1,6 @@
 .grid {
     display: grid;
   
-    grid-template-rows: 25vh 25vh;
-    grid-template-columns: 75vh 75vh;
-  }
+    grid-template-rows: 60% 60%;
+    grid-template-columns: 50% 50%;
+}

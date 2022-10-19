@@ -1,3 +1,26 @@
+https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/
+https://stackoverflow.com/questions/31883601/passings-array-as-props-in-reactjs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
