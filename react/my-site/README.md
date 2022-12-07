@@ -6,6 +6,9 @@ https://www.npmjs.com/package/file-saver
 
 "FileSaver.js is the solution to saving files on the client-side, and is perfect for web apps that generates files on the client, However if the file is coming from the server we recommend you to first try to use Content-Disposition attachment response header as it has more cross-browser compatiblity."
 
+# Problema para rodar o site
+Os arquivos estavam no .gitignore -> Resolvido com npm install
+
 Possível solução:
 https://www.geeksforgeeks.org/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript/
 
