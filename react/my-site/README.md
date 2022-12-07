@@ -1,6 +1,14 @@
 # Icons para o componete WhatIDo
 https://icons.getbootstrap.com/
 
+# Problema com o file-saver
+https://www.npmjs.com/package/file-saver
+
+"FileSaver.js is the solution to saving files on the client-side, and is perfect for web apps that generates files on the client, However if the file is coming from the server we recommend you to first try to use Content-Disposition attachment response header as it has more cross-browser compatiblity."
+
+Possível solução:
+https://www.geeksforgeeks.org/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript/
+
 https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/
 https://stackoverflow.com/questions/31883601/passings-array-as-props-in-reactjs
 https://stackoverflow.com/questions/50694881/how-to-download-file-in-react-js
