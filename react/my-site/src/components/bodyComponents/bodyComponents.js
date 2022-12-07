@@ -14,7 +14,7 @@ export const BodyComponent = (props) => {
                     <h2>{title}</h2>
                 </div>
                 <div className='content'>
-                    <Table elements={fortbl} display='grid'/>
+                    <Table type={type} elements={fortbl} display='grid'/>
                 </div>
             </div>
         );
@@ -27,7 +27,7 @@ export const BodyComponent = (props) => {
                     <h2>{title}</h2>
                 </div>
                 <div className='content'>
-                    <Table elements={widtbl} display='column'/>
+                    <Table type={type} elements={widtbl} display='column'/>
                 </div>
             </div>
         );
