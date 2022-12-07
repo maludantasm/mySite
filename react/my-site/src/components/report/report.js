@@ -1,6 +1,6 @@
 import './report.css'
 import { saveAs } from 'file-saver'
-import '../../public/files/mldm_cv.pdf'
+import '../../public/files/mldm_cv.txt'
 
 export const Report = (props) => {
     const img = props.img
@@ -10,8 +10,8 @@ export const Report = (props) => {
 
     const saveFile = () => {
         saveAs(
-            '../../public/files/mldm_cv.pdf',
-          'mldm_cv.pdf'
+            process.env.REACT_APP_CLIENT_URL + '../../public/files/mldm_cv.txt',
+            'mldm_cv.pdf'
         );
     };
 
@@ -31,7 +31,7 @@ export const Report = (props) => {
                     </div>
                     <div className='buttons'>
                         <button id='download' type='button' onClick={saveFile}>Download CV</button>
-                        <button id='contact' type='button'>Contact</button>
+                        <button id='contact' type='button'>Entrar em contato</button>
                     </div>
                 </div>
             </div>

@@ -1,9 +1,10 @@
 import './App.css';
 import Header from './components/header';
-import WhatIDo from './components/whatIDo';
+import BodyComponent from './components/bodyComponents';
 import Report from './components/report';
 import Footer from './components/footer';
-import Img from './public/imgs/person.jpg';
+
+import pfp from './public/imgs/person.jpg';
 
 function App() {
     return (
@@ -12,8 +13,9 @@ function App() {
                 <Header letter='M' name='Maria Marques'/>
             </div>
             <div className='body-container'>
-                <Report img={Img} occupation='Frontend-depveloper' name='Maria Marques' description='Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.'/>
-                <WhatIDo/>
+                <Report img={pfp} occupation='Frontend-developer' name='Maria Marques' description='Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.'/>
+                <BodyComponent type='formacao' title='Minha Formação'/>
+                <BodyComponent type='what-i-do' title='O que eu faço?'/>
             </div>
             <div className='footer-container'>
                 <Footer/>

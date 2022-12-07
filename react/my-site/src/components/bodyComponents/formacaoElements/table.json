@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "CESAR",
+        "text": "Cursei 3 períodos de Ciência da Computação no CESAR School" 
+    },
+
+    {
+        "id": 2,
+        "title": "UFPE",
+        "text": "Atualmente curso o 3 período de Sistemas de Informação no Centro de Informática (CIn) da Universidade Federal de Pernambuco (UFPE)" 
+    },
+
+    {
+        "id": 3,
+        "title": "EBAC",
+        "text": "Também estou fazendo o cuso de UI/UX design na Escola Britânica de Artes e Comunicação (EBAC)" 
+    },
+
+    {
+        "id": 4,
+        "title": "Alura",
+        "text": "'Mauris neque libero, aliquet vel mollis nec, euismod sed tellus. Mauris convallis dictum elit id volutpat. Vivamus blandit, dolor vitae lacinia maximus, risus velit vehicula odio, a tincidunt turpis turpis tempus ex.'" 
+    }
+]

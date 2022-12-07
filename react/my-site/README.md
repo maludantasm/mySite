@@ -1,3 +1,6 @@
+# Icons para o componete WhatIDo
+https://icons.getbootstrap.com/
+
 https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/
 https://stackoverflow.com/questions/31883601/passings-array-as-props-in-reactjs
 https://stackoverflow.com/questions/50694881/how-to-download-file-in-react-js
