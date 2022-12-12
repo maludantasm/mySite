@@ -8,6 +8,7 @@ https://www.npmjs.com/package/file-saver
 
 # Problema para rodar o site
 Os arquivos estavam no .gitignore -> Resolvido com npm install
+Arquivos faltantes: node_modules
 
 Possível solução:
 https://www.geeksforgeeks.org/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript/
