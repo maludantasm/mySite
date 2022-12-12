@@ -1,15 +1,21 @@
 import styled from 'styled-components'
 
-const WhatIDoElementStyle = styled.div`margin-top: 15vh;
-margin-left: 10vh;
-font-size: 1.5vh;
-color:#333;
-
-display: flex;
+const WIDEStyle = styled.div`display: flex;
 flex-direction: column;
-align-items: flex-start;`;
 
-const BodyComponentH2 = styled.h2`margin-bottom: 4vh;
-border-bottom: 0.3vh solid #318CE7;`;
+margin-right: 15vh;
+margin-left: 3vh;
 
-export {WhatIDoElementStyle, BodyComponentH2};
+padding-bottom: 4vh;`;
+
+const WIDETitle = styled.div`display: flex;
+flex-direction: row;
+
+align-items: center;`;
+
+const WIDESvg = styled.svg`color: #318CE7;
+margin-right: 2.1vh;`;
+
+const WIDEP = styled.p`font-size: 1.5vh;`;
+
+export {WIDEStyle, WIDETitle, WIDESvg, WIDEP};

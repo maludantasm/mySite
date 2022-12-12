@@ -1,9 +1,9 @@
-import './table.css'
+import { TableGrid, TableColumn } from '../../../styled-components/tableStyle.js';
 import WhatIDoElement from '../whatIDoElements'
 import FormacaoElement from '../formacaoElements'
 
 export const Table = (props) => {
-	const display = props.display 
+	var display = props.display 
 	const type = props.type
 
 	if (type == 'formacao') {
@@ -18,9 +18,19 @@ export const Table = (props) => {
 		});
 	}
 
-	return (
-		<div className={display}>
-			{result}
-		</div>
-	)
+	if (display == 'grid') {
+		return (
+			<TableGrid>
+				{result}
+			</TableGrid>
+		)
+	}
+
+	else if (display == 'column') {
+		return (
+			<TableColumn>
+				{result}
+			</TableColumn>
+		)
+	}
 }
