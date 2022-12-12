@@ -18,6 +18,23 @@ Arquivos faltantes: node_modules
 Solução:
 https://stackoverflow.com/questions/57685935/does-react-js-require-to-have-a-node-modules-folder-to-run
 
+# Instalando o nvm (node version manager)
+"NVM is a Node Version Manager tool. Using the NVM utility, you can install multiple node.js versions on a single system. You can also choose a specific Node version for applications. It also provides an option to auto-select the node version using the .nvmrc configuration file."
+
+```sudo apt install curl 
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash ```
+
+https://phoenixnap.com/kb/install-latest-node-js-and-nmp-on-ubuntu
+https://tecadmin.net/how-to-install-nvm-on-ubuntu-20-04/
+
+# Versions
+nvm =< 0.39.2
+npm =< 6.14.4 -> 8.19.2
+node (latest lts(long term support)) =< 10.19.0 -> 18.12.1
+
+
+
+
 https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/
 https://stackoverflow.com/questions/31883601/passings-array-as-props-in-reactjs
 https://stackoverflow.com/questions/50694881/how-to-download-file-in-react-js
