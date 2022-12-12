@@ -1,12 +1,12 @@
-import './formacao-elements.css'
+import { ElementStyle, ElementTitle, ElementSvg, ElementP } from '../../styles/bodyElementsStyle.js';
 
 export const FormacaoElement = (props) => {
     return (
-        <div className='element'>
-            <div className='element-title'>
+        <ElementStyle>
+            <ElementTitle>
                 <h3>{props.title}</h3>
-            </div>    
-                <p>{props.text}</p>
-        </div>
+            </ElementTitle>    
+                <ElementP>{props.text}</ElementP>
+        </ElementStyle>
     );
 }

@@ -1,4 +1,4 @@
-import { BodyComponentStyle, BodyComponentH2 } from '../../styled-components/bodyComponentsStyle.js';
+import { BodyComponentStyle, BodyComponentH2 } from '../styles/bodyComponentsStyle.js';
 
 import { Table } from './table/table';
 import widtbl from './whatIDoElements/table.json';

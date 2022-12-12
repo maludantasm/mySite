@@ -1,4 +1,5 @@
-import { TableGrid, TableColumn } from '../../../styled-components/tableStyle.js';
+import { TableGrid, TableColumn } from '../../styles/tableStyle.js';
+
 import WhatIDoElement from '../whatIDoElements'
 import FormacaoElement from '../formacaoElements'
 

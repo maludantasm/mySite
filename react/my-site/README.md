@@ -58,7 +58,22 @@ https://stackoverflow.com/questions/50694881/how-to-download-file-in-react-js
 
 
 
-
+        <HeaderStyle>
+            <HeaderMenuStart>
+                <HeaderLetter><b>{letter}</b></HeaderLetter>
+                <HeaderName><b>{firstName}</b> {lastName}</HeaderName>
+            </HeaderMenuStart>   
+            <HeaderMenuEnd> 
+                <HeaderUl>
+                    <HeaderElements elements={[
+                                                ['#', 'Página Inicial', 'M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'], 
+                                                ['#', 'Sobre', 'M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'], 
+                                                ['#', 'Contatos','M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z', 'M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z']
+                                    ]}
+                    />
+                </HeaderUl>    
+            </HeaderMenuEnd>
+        </HeaderStyle>
 
 
 
