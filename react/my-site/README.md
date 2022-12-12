@@ -1,3 +1,13 @@
+# O projeto
+Descricao
+
+# Elementos presentes no site
+- componentes react
+- styled-components
+- CRUD
+- autenticação de usuário
+- temas
+
 # Icons para o componete WhatIDo
 https://icons.getbootstrap.com/
 

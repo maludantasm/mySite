@@ -1,7 +1,8 @@
+import { BodyComponentStyle, BodyComponentH2 } from '../../styled-components/bodyComponentsStyle.js';
+
 import { Table } from './table/table';
-import widtbl from './whatIDoElements/table.json'
-import fortbl from './formacaoElements/table.json'
-import './bodyComponents.css'
+import widtbl from './whatIDoElements/table.json';
+import fortbl from './formacaoElements/table.json';
 
 export const BodyComponent = (props) => {
     const type = props.type
@@ -9,27 +10,27 @@ export const BodyComponent = (props) => {
 
     if (type == 'formacao') {
         return (
-            <div className='body-component'>
-                <div className='title'>
-                    <h2>{title}</h2>
-                </div>
-                <div className='content'>
-                    <Table type={type} elements={fortbl} display='grid'/>
-                </div>
-            </div>
+            <BodyComponentStyle>
+                    <div className='title'>
+                        <BodyComponentH2>{title}</BodyComponentH2>
+                    </div>
+                    <div className='content'>
+                        <Table type={type} elements={fortbl} display='grid'/>
+                    </div>
+            </BodyComponentStyle>
         );
     }
 
     else if (type == 'what-i-do') {
         return (
-            <div className='body-component'>
-                <div className='title'>
-                    <h2>{title}</h2>
-                </div>
-                <div className='content'>
-                    <Table type={type} elements={widtbl} display='column'/>
-                </div>
-            </div>
+            <BodyComponentStyle>
+                    <div className='title'>
+                        <BodyComponentH2>{title}</BodyComponentH2>
+                    </div>
+                    <div className='content'>
+                        <Table type={type} elements={widtbl} display='column'/>
+                    </div>
+            </BodyComponentStyle>
         );
     }
 }
