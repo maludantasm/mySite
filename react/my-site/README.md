@@ -6,12 +6,17 @@ https://www.npmjs.com/package/file-saver
 
 "FileSaver.js is the solution to saving files on the client-side, and is perfect for web apps that generates files on the client, However if the file is coming from the server we recommend you to first try to use Content-Disposition attachment response header as it has more cross-browser compatiblity."
 
+Possível solução:
+https://www.geeksforgeeks.org/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript/
+
 # Problema para rodar o site
 Os arquivos estavam no .gitignore -> Resolvido com npm install
 Arquivos faltantes: node_modules
 
-Possível solução:
-https://www.geeksforgeeks.org/how-to-trigger-a-file-download-when-clicking-an-html-button-or-javascript/
+"Of course it does require. If you open your package.json, you will find minimal dependencies that are required to run simple react.js app if you are using CRA. Regarding you problem, if you deleted node_modules folder (delete package-lock.json as well), you will have to rerun npm install command to install all dependencies."
+
+Solução:
+https://stackoverflow.com/questions/57685935/does-react-js-require-to-have-a-node-modules-folder-to-run
 
 https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/
 https://stackoverflow.com/questions/31883601/passings-array-as-props-in-reactjs
