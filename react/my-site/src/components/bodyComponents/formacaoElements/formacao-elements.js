@@ -9,4 +9,4 @@ export const FormacaoElement = (props) => {
                 <ElementP>{props.text}</ElementP>
         </ElementStyle>
     );
-}
+};

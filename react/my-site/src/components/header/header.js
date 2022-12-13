@@ -1,10 +1,10 @@
-import './header.css'
-import { HeaderElements } from './headerElements/header-elements'
+import './header.css';
+import { HeaderElements } from './headerElements/header-elements';
 
 export const Header = (props) => {
-    const letter = props.letter
-    const firstName = props.name.split(' ')[0]
-    const lastName = props.name.split(' ')[1]
+    const letter = props.letter;
+    const firstName = props.name.split(' ')[0];
+    const lastName = props.name.split(' ')[1];
 
     return (
         <div className='header'>
@@ -23,5 +23,5 @@ export const Header = (props) => {
                 </ul>    
             </nav>
         </div>
-    )
-}
+    );
+};

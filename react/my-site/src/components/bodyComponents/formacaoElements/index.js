@@ -1,3 +1,3 @@
 import { FormacaoElement } from './formacao-elements';
 
-export default FormacaoElement
+export default FormacaoElement;

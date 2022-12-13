@@ -12,4 +12,4 @@ export const WhatIDoElement = (props) => {
                 <ElementP>{props.text}</ElementP>
         </ElementStyle>
     );
-}
+};

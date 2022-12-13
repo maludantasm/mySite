@@ -1,11 +1,11 @@
 import { TableGrid, TableColumn } from '../../styles/tableStyle.js';
 
-import WhatIDoElement from '../whatIDoElements'
-import FormacaoElement from '../formacaoElements'
+import WhatIDoElement from '../whatIDoElements';
+import FormacaoElement from '../formacaoElements';
 
 export const Table = (props) => {
-	var display = props.display 
-	const type = props.type
+	var display = props.display; 
+	const type = props.type;
 
 	if (type == 'formacao') {
 		var result = props.elements.map((element) => {
@@ -17,14 +17,14 @@ export const Table = (props) => {
 		var result = props.elements.map((element) => {
 			return(<WhatIDoElement key={element.id} path={element.path} title={element.title} text={element.text}/>)
 		});
-	}
+	};
 
 	if (display == 'grid') {
 		return (
 			<TableGrid>
 				{result}
 			</TableGrid>
-		)
+		);
 	}
 
 	else if (display == 'column') {
@@ -32,6 +32,6 @@ export const Table = (props) => {
 			<TableColumn>
 				{result}
 			</TableColumn>
-		)
-	}
-}
+		);
+	};
+};

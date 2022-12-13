@@ -1,4 +1,4 @@
-import '../mldm_cv.pdf'
+import '../mldm_cv.pdf';
 
 export const SaveFile = () => {
     fetch('https://cors-anywhere.herokuapp.com/' + './mldm_cv.pdf', {
@@ -31,6 +31,6 @@ export const SaveFile = () => {
         // Clean up and remove the link
         link.parentNode.removeChild(link);
     });
-}
+};
 
-export default SaveFile
+export default SaveFile;

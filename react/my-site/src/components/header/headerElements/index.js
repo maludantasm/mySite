@@ -1,3 +1,3 @@
 import { HeaderElements } from './header-elements';
 
-export default HeaderElements
+export default HeaderElements;

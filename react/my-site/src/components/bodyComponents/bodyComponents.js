@@ -5,8 +5,8 @@ import widtbl from './whatIDoElements/table.json';
 import fortbl from './formacaoElements/table.json';
 
 export const BodyComponent = (props) => {
-    const type = props.type
-    const title = props.title
+    const type = props.type;
+    const title = props.title;
 
     if (type == 'formacao') {
         return (
@@ -32,5 +32,5 @@ export const BodyComponent = (props) => {
                     </div>
             </BodyComponentStyle>
         );
-    }
-}
+    };
+};

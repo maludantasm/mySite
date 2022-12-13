@@ -42,7 +42,8 @@ nvm =< 0.39.2
 npm =< 6.14.4 -> 8.19.2
 node (latest lts(long term support)) =< 10.19.0 -> 18.12.1
 
-
+# Imports da web
+Para fazer importações com styled-components é só importar com a tag ```<link/>``` no /public/index.html 
 
 
 https://thewebdev.info/2021/05/24/how-to-download-file-in-react-js/

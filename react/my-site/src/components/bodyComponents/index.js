@@ -1,3 +1,3 @@
 import { BodyComponent } from './bodyComponents';
 
-export default BodyComponent
+export default BodyComponent;

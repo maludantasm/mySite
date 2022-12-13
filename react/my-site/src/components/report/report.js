@@ -1,16 +1,17 @@
-import { ReportStyle, ReportPFP, ReportDesc } from '../styles/reportStyle.js';
+import { ReportStyle, ReportPFP, ReportDesc, ReportButton } from '../styles/reportStyle.js';
 
-import './report.css'
-import SaveFile from './saveFile/savefile.js'
-import './mldm_cv.pdf'
+import './report.css';
+import SaveFile from './saveFile/savefile.js';
+import './mldm_cv.pdf';
 
 export const Report = (props) => {
-    const img = props.img
-    const occupation = props.occupation
-    const name = props.name
-    const description = props.description
+    const img = props.img;
+    const occupation = props.occupation;
+    const name = props.name;
+    const description = props.description;
 
-    return (<ReportStyle>
+    return (
+            <ReportStyle>
                 <div className='picture'>
                     <ReportPFP src={img} alt='profile-pic'/>
                 </div>
@@ -30,5 +31,5 @@ export const Report = (props) => {
                     </div>
                 </ReportDesc>
             </ReportStyle>
-    )
-}
+    );
+};

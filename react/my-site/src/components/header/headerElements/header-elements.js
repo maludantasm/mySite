@@ -1,10 +1,11 @@
 // import { HeaderElementLi, HeaderMenuEndA, HeaderAHover, HeaderMenuSvgHover, HeaderSvg } from '../../styles/headerElementsStyle.js';
-import './header-elements.css'
+import './header-elements.css';
+
 export const HeaderElements = (props) => {
     var result = props.elements.map((element) => {
-        const href = element[0]
-        const title =  element[1]
-        const icon =  element[2]
+        const href = element[0];
+        const title =  element[1];
+        const icon =  element[2];
 
 		return(
             <li>
@@ -14,7 +15,8 @@ export const HeaderElements = (props) => {
                     </svg>
                 </a>
             </li>
-    )})
+        );
+    });
 
-    return (result)
-}    
+    return (result);
+};  

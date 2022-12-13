@@ -12,5 +12,5 @@ export const Footer = (props) => {
                 <p>© 2022 All rights reserved</p>
             </div>
         </FooterStyle>
-    )
-}
+    );
+};
