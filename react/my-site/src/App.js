@@ -1,5 +1,6 @@
 import './App.css';
-import { GlobalStyle, AppStyle, AppBodyContainer } from './appStyle';
+import React, { useState, useEffect } from 'react';
+import { GlobalStyle, LoaderContainer, Loader, AppStyle, AppBodyContainer } from './appStyle';
 
 import Header from './components/header';
 import BodyComponent from './components/bodyComponents';
@@ -8,9 +9,24 @@ import Footer from './components/footer';
 
 import pfp from './public/imgs/person.jpg';
 
-function App() {
+const App = () => {
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        setLoading(true);
+
+        setTimeout(() => {
+            setLoading(false);
+        }, 2000);
+    }, []);
+
     return (
         <>
+            {loading ? (
+                <LoaderContainer>
+                    <Loader></Loader>
+                </LoaderContainer>
+            ) : (    
                 <AppStyle>
                     <div className='header-container'>
                         <Header letter='M' name='Maria Marques'/>
@@ -24,8 +40,9 @@ function App() {
                         <Footer/>
                     </div>
                 </AppStyle>
-        </>
+            )}    
+        </>    
   );
-}
+};
 
 export default App;
