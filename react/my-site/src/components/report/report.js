@@ -26,8 +26,8 @@ export const Report = (props) => {
                         <p>{description}</p>
                     </div>
                     <div className='buttons'>
-                        <button id='download' type='button' onClick={SaveFile}>Download CV</button>
-                        <button id='contact' type='button'>Entrar em contato</button>
+                        <ReportButton primary type='button' onClick={SaveFile}>Download CV</ReportButton>
+                        <ReportButton type='button'>Entrar em contato</ReportButton>
                     </div>
                 </ReportDesc>
             </ReportStyle>
