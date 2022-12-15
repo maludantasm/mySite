@@ -1,6 +1,5 @@
-import { ReportStyle, ReportPFP, ReportDesc, ReportButton } from '../styles/reportStyle.js';
+import { ReportStyle, ReportPFP, ReportDesc, ReportDescText, ReportName, ReportButton } from '../styles/reportStyle.js';
 
-import './report.css';
 import SaveFile from './saveFile/savefile.js';
 import './mldm_cv.pdf';
 
@@ -16,15 +15,15 @@ export const Report = (props) => {
                     <ReportPFP src={img} alt='profile-pic'/>
                 </div>
                 <ReportDesc>
-                    <div className='occupation'>
+                    <ReportDescText occupation>
                         <p>{occupation}</p>
-                    </div>
-                    <div className='name'>
+                    </ReportDescText>
+                    <ReportName>
                         <p><b>{name}</b></p>
-                    </div>
-                    <div className='text'>
+                    </ReportName>
+                    <ReportDescText text>
                         <p>{description}</p>
-                    </div>
+                    </ReportDescText>
                     <div className='buttons'>
                         <ReportButton primary type='button' onClick={SaveFile}>Download CV</ReportButton>
                         <ReportButton type='button'>Entrar em contato</ReportButton>

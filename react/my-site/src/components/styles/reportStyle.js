@@ -38,6 +38,24 @@ const ReportDesc = styled.div`
     margin-right: 10vh;
 `;
 
+const ReportDescText = styled.div`
+    p {
+        margin-top: ${(props) => props.text ? '0vh' : '0vh'};
+        margin-bottom: ${(props) => props.text ? '5vh' : ''};
+    };
+
+    color: ${(props) => props.occupation ? 'darkgray' : 'rgb(102,102, 102)'};
+`;
+
+const ReportName = styled.div`
+    font-size: 5.2vh;
+
+    p {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    };
+`;
+
 const ReportButton = styled.button`
     font-family: Poppins;
     font-size: 1.6vh;
@@ -56,23 +74,12 @@ const ReportButton = styled.button`
     position: relative;
     margin-right: 1.7vh;
 
+    transition: transform 250ms;
+    transition:.6s ease; 
+
     &:hover {
-        transition: transform 250ms;
-        transition:.6s ease; 
+        transform: translateY(-0.2vh);
     }
 `;
 
-const Block = styled.div`
-  background-color: white;
-  color: ${({ color }) => color || "blue"};
-  padding: 10px;
-  border: 1px solid ${({ color }) => color || "blue"};
-  display: inline-block;
-  margin: 5px;
-  cursor: pointer;
-  &:hover {
-    background-color: lightblue;
-  }
-`;
-
-export {ReportStyle, ReportPFP, ReportDesc, ReportButton, Block};
+export {ReportStyle, ReportPFP, ReportDesc, ReportDescText, ReportName, ReportButton};
